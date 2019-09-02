@@ -97,6 +97,11 @@ div.section{
 	margin: 2em;
 }
 
+div.field__item{
+	display:inline;
+	margin-right:5px;}
+
+
 div.abstract {
 	margin: 1em 0em 0em 1.5em;
 }
