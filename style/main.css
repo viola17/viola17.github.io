@@ -97,9 +97,7 @@ div.section{
 	margin: 2em;
 }
 
-div.field__item{
-	display:inline;
-	margin-right:5px;}
+
 
 
 div.abstract {
@@ -128,3 +126,7 @@ div.section_title {
   font-weight: bold;
   color: #000000;
 }
+
+.field__item{
+	display:inline;
+	margin-right:5px;}
