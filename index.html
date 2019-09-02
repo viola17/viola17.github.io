@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="style/my.css" rel="stylesheet" type="text/css" />
+	<title>Viola Zhong</title>
+	<script>
+	function copy(dest, source) {
+  		if(dest.source == source) {
+  		  dest.innerHTML = "";
+  		  dest.source = null;
+  		}
+  		else {
+  		  dest.innerHTML = source.innerHTML;
+  		  dest.source = source;
+  		}
+  		dest.blur();
+	}
+	</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#includepubs").load("publication.html"); 
+    });
+    </script>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+
+<!-- header info -->
+<div id="header">
+<div id="profile">
+	<img src="figures/me2016-hi.jpg" height=250>
+</div>
+<div id="contact">	
+	<table border="0">
+	<tr>
+	<td><font size=5><b>He He</b> &nbsp;</font></td>
+	<td><img align=right src="figures/name.png" height=50></td>
+	<td><font size="2">&nbsp; (<a href="pronunciation.html">How to pronounce?</a>)</font></td>
+	</tr>
+	</table>
+	<br>
+	Amazon Web Services, East Palo Alto <br>
+    <p><font face="courier">hehea@amazon.com</font></p>
+    <p>
+    [<a href=docs/resume.pdf"">Resume</a>]
+    </p>
+	<br>
+
+</div>
+</div>
+
+<!-- main content -->
+<div id="content">
+<div class="section">
+    <p>
+    I graduted from  <a href=https://illinois.edu/>UIUC</a> doubling major in <a href=https://math.illinois.edu/>maths</a> and <a href=https://stat.illinois.edu/>stats</a>. 
+    After that, I interned at <a href=http://www.abc-ca.com/gywm/CProfile.shtml?id=cpfl/>ABC-CA Fund Management</a> as a risk analyst and also worked at <a href=https://www.moseeker.com/>MoSeeker.Inc</a>, a human resource tech firm, as a python engineer.
+    I came back to pursue an <a href=https://analytics.georgetown.edu/>M.S. in Analytics</a> at Georgetown University because of its ability to tackle real-world complex problems.
+    </p>
+    
+    <p>
+    My past experiences have continued to increase my fascination with the comprehensive applications of data science and statistical methods. As such, I aspire to become a data scientist who integrates computational techniques with statistical theories to analyze products, markets and risks.
+    </p>
+   
+   
+<!-- content end -->
+</div>
+</body>
